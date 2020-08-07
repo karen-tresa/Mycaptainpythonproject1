@@ -1,0 +1,14 @@
+#accept filename and print extension
+fn= input("Enter Filename: ")
+
+f = fn.split(".")
+g=f[-1]
+if g =="py":
+    h="Python"
+elif g=="java":
+    h= "Java"
+elif g== "doc":
+    h=="Document"
+else:
+    h=g
+print ("Extension of the file is : " + h)
